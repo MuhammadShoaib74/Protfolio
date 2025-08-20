@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(0, 0, 228);
+
+}
+
+.nav {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.nav li {
+    list-style: none;
+    font-size: 19px;
+    font-weight: 500px;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: backgrond-color 2s ease 0.5s;
+}
+
+.nav li:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(4, 0, 255);
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: 700px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.logo:hover{
+    font-size: 42px;
+}
+
+button {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: rgb(0, 60, 255);
+    background-color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    transition: font-size 0.5s ease 0.2s;
+
+}
+button:hover{
+    font-size: 23px;
+}
+
+.info {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.left {
+    width: 60%;
+    padding: 150px;
+}
+
+.img {
+
+    height: 300px;
+    width: 400px;
+    border-radius: 50%;
+    border: 2px solid blue;
+    float: right;
+    position: relative;
+    margin-right: 150px;
+    margin-top: 100px;
+    overflow: hidden;
+
+
+
+}
+
+h1 {
+    color: rgb(0, 47, 255);
+    font-size: 60px;
+}
+
+h2 {
+    font-size: xx-large;
+}
+
+.left h1,
+h2,
+p {
+    margin-top: 10px;
+}
+
+.img img {
+    position: absolute;
+    top: -30px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+}
+
+.icons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    transition: font-size 5s ease 0.2s;
+
+
+}
+
+
+
+.icons i {
+    padding: 20px;
+    cursor: pointer;
+    background: cover;
+    font-size: 20px
+    
+}
+.icons i:hover {
+    font-size: 25PX;
+
+   
+}
